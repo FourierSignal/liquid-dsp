@@ -24,7 +24,7 @@ set(buffer_SOURCES
     # src/buffer/src/cbuffer.c src/buffer/src/wdelay.c src/buffer/src/window.c
 )
 set(buffer_BENCHMARKS_SOURCES
-    src/buffer/bench/cbuffer_benchmark.c
+    src/buffer/bench/cbuffercf_benchmark.c
     src/buffer/bench/window_push_benchmark.c
     src/buffer/bench/window_read_benchmark.c)
 set(buffer_AUTOTESTS_SOURCES
