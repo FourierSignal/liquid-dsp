@@ -32,8 +32,7 @@ set(buffer_AUTOTESTS_SOURCES
     # src/buffer/tests/sbuffer_autotest.c
     src/buffer/tests/wdelay_autotest.c src/buffer/tests/window_autotest.c)
 
-set(channel_SOURCES src/channel/src/channel.c src/channel/src/channel_cccf.c
-                    src/channel/src/tvmpch.c)
+set(channel_SOURCES src/channel/src/channel_cccf.c)
 set(channel_BENCHMARKS_SOURCES)
 set(channel_AUTOTESTS_SOURCES)
 
