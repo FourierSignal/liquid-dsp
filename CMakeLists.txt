@@ -52,8 +52,8 @@ option(LIQUID_SIMDOVERRIDE "Force overriding of SIMD (use portable C code)" OFF)
 # TODO: Change this to build targets as build targets
 option(LIQUID_BUILD_SHARED "Build shared library" ON)
 option(LIQUID_BUILD_STATIC "Build static library" ON)
-option(LIQUID_BUILD_EXAMPLES "Build examples" ON)
-option(LIQUID_BUILD_SANDBOX "Build sandbox" ON)
+option(LIQUID_BUILD_EXAMPLES "Build examples" OFF)
+option(LIQUID_BUILD_SANDBOX "Build sandbox" OFF)
 # X-compilation options
 option(LIQUID_FORCE_X86_MMX "Force MMX (useful for cross-compiling)" OFF)
 option(LIQUID_FORCE_X86_SSE "Force SSE (useful for cross-compiling)" OFF)
